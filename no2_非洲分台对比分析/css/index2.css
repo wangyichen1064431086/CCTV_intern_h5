@@ -1,0 +1,425 @@
+/************************************定义整体准备属性**************************************/
+body{                   /*应用于body元素的CSS样式*/
+	
+	width:100%;     /*CSS尺寸属性，设置段落宽度的CSS属性，可能的值有auto(默认值）、length(绝对长度，用px、cm单位定义）、%（定义记忆父元素宽度的百分比）、inherit规定从父元素继承属性的值*/
+	overflow:hidden;/*CSS定位属性，规定当内容溢出元素框时发生的事情。？*/
+	
+}
+
+
+/*CSS选择器有很多种:1).xxx(选择class="xxx"的所有元素）；2）element(选择所有element元素，eg:P)*/
+
+.hide{ display:none;}/*CSS定位属性，规定元素应该生成的框的类型，可选值none/block/inline……none为此元素不被显示*/
+
+.page{
+	width:100%;
+	height:100%;/*与width类似*/
+	position:absolute;/*CSS定位属性，规定元素的定位类型，可选值有absolute(生成绝对定位的元素，通过left、top、right、bottom属性进行定位*/
+	font-size:100px;/*CSS字体属性，设置字体尺寸*/
+	text-align:center;/*CSS文本属性，规定文本水平对齐方式*/
+	background-color: #FFFFFF;
+}
+
+.page .wrap{
+	height:800px;
+}
+
+
+
+.page-1-1{ background-color:#FFFFFF;}/*CSS背景属性，设置元素背景颜色*/
+.page-2-1{ background-color:#FFFFFF;}
+.page-3-1{ background-color:#FFFFFF;}
+.page-4-1{ background-color:#FFFFFF;}
+.page-5-1{ background-color:#FFFFFF;}
+.page-6-1{ background-color:#FFFFFF;}
+.page-7-1{ background-color:#FFFFFF;}
+.page-8-1{ background-color:#FFFFFF;}
+.page-9-1{ background-color:#FFFFFF;}
+.page-10-1{ background-color:#FFFFFF;}
+.page-11-1{ background-color:#FFFFFF;}
+.page-12-1{ background-color:#FFFFFF;}
+.page-13-1{ background-color:#FFFFFF;}
+.page-14-1{ background-color:#FFFFFF;}
+.page-15-1{ background-color:#FFFFFF;}
+
+.page-current{
+	z-index:1;   /*该属性设置一个定位元素沿 z 轴的位置，z 轴定义为垂直延伸到显示区的轴。如果为正数，则离用户更近，为负数则表示离用户更远。*/
+}
+/*************************************第1页各图片位置**************************************/
+.page-1-1 .img_1{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+        top: 20%;	
+}
+.page-1-1 .img_2{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top:40%;
+}
+.page-1-1 .img_3{
+	height: auto;width:90%;
+	position: absolute;
+	left: 5%;
+	top: 60%;
+}
+/*************************************第2页各图片位置**************************************/
+.page-2-1 .img_1{
+	height: auto;width: 90%;
+	position: absolute;
+	left: 50%;
+	margin-left: -45%;
+	top: 10%;
+}
+.page-2-1 .img_2{
+	height: auto;width: 86%;
+	position: absolute;
+	left: 50%;
+	margin-left: -43%;
+	top: 20%;
+}
+.page-2-1 .img_3{
+	height: auto;width: 90%;
+	position: absolute;
+	left: 50%;
+	margin-left: -45%;
+	top: 35%;
+}
+.page-2-1 .img_4{
+	height: auto;width: 86%;
+	position: absolute;
+	left: 50%;
+	margin-left: -43%;
+	top: 80%;
+}
+/*************************************第3页**********************************/
+.page-3-1 .img_1{
+	height: 100%;width:100%;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+/********************************第4页*************************************/
+.page-4-1 .img_1{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 10%;
+}
+.page-4-1 .img_2{
+	height: auto;width: 80%;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	top: 20%;
+}
+.page-4-1 .img_3{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	top: 40%;
+}
+/**********************************第5页**************************************/
+.page-5-1 .img_1{
+	height: auto;width: 95%;
+	position: absolute;
+	left: 0%;
+	top: 10%;
+}
+.page-5-1 .img_2{
+	height: auto;width: 86%;
+	position: absolute;
+	left: 50%;
+	margin-left: -43%;
+	top: 20%;
+}
+.page-5-1 .img_3{
+	height: auto;width: 80%;
+	position: absolute;
+	left: 15%;
+	top: 35%;
+}
+/********************************第6页************************************/
+.page-6-1 .img_1{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 5%;
+}
+.page-6-1 .img_2{
+	height: auto;width:40%;
+	position: absolute;
+	left: 7%;
+	top:15%;
+}
+.page-6-1 .img_3{
+	height: auto;width:40%;
+	position: absolute;
+	right: 7%;
+	top:25%;
+}
+.page-6-1 .img_4{
+	height:auto;width:40%;
+	position: absolute;
+	left: 7%;
+	top:35%;
+}
+.page-6-1 .img_5{
+	height: auto;width:40%;
+	position: absolute;
+	right: 7%;
+	top:45%;
+}
+.page-6-1 .img_6{
+	height: auto;width:40%;
+	position: absolute;
+	left: 7%;
+	top:55%;
+}
+.page-6-1 .img_7{
+	height: auto;width:40%;
+	position: absolute;
+	right: 7%;
+	top:65%;
+}
+.page-6-1 .img_8{
+	height: auto;width:70%;
+	position: absolute;
+	left: 50%;
+	margin-left: -35%;
+	top:85%;
+}
+/************************************第7页***************************************************/
+.page-7-1 .img_1{
+	height: auto;width:95%;
+	position: absolute;
+	left: 2%;
+	top: 10%;
+}
+.page-7-1 .img_2{
+	height: auto;width: 60%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	top: 50%;
+}
+/*****************************第8页************************************************/
+.page-8-1 .img_1{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 10%;
+}
+.page-8-1 .img_2{
+	height: auto;width: 98%;
+	position: absolute;
+	left: 2%;
+	top: 17%;
+}
+.page-8-1 .img_3{
+	height: auto;width: 70%;
+	position: absolute;
+	left: 15%;
+	top: 25%;
+}
+.page-8-1 .img_4{
+	height: auto;width: 70%;
+	position: absolute;
+	left: 15%;
+	top:62%;
+}
+/***********************************第9页***********************************************/
+.page-9-1 .img_1{
+	height: auto;width: 90%;
+	position: absolute;
+	left: 0%;
+	top: 2%;
+}
+.page-9-1 .img_2{
+	height: auto;width: 86%;
+	position: absolute;
+	left: 2%;
+	top: 6.5%;
+}
+.page-9-1 .img_3{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 5%;
+	top: 14%;
+}
+.page-9-1 .img_4{
+	height: auto;width: 42%;
+	position: absolute;
+	left: 55%;
+	top: 19%;
+}
+.page-9-1 .img_5{
+	height: auto;width: 40%;
+	position: absolute;
+	left: 5%;
+	top: 39%;
+}
+.page-9-1 .img_6{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 45%;
+	top: 34%;
+}
+.page-9-1 .img_7{
+	height: auto;width: 86%;
+	position: absolute;
+	left: 2%;
+	top: 53%;
+}
+.page-9-1 .img_8{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 5%;
+	top: 61%;
+}
+.page-9-1 .img_9{
+	height: auto;width: 42%;
+	position: absolute;
+	left: 55%;
+	top: 66%;
+}
+.page-9-1 .img_10{
+	height: auto;width: 40%;
+	position: absolute;
+	left: 5%;
+	top: 86%;
+}
+.page-9-1 .img_11{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 45%;
+	top: 81%;
+}
+/************************************第10页*************************************/
+.page-10-1 .img_1{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 8%;
+}
+.page-10-1 .img_2{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 5%;
+	top: 17%;
+}
+.page-10-1 .img_3{
+	height: auto;width: 45%;
+	position: absolute;
+	left: 55%;
+	top: 17%;
+}
+.page-10-1 .img_4{
+	height: auto;width: 45%;
+	position: absolute;
+	left: 3%;
+	top: 57%;
+}
+.page-10-1 .img_5{
+	height: auto;width: 50%;
+	position: absolute;
+	left: 45%;
+	top: 57%;
+}
+/***********************************第11页**************************************/
+.page-11-1 .img_1{
+	height: auto;width: 70%;
+	position: absolute;
+	left: 3%;
+	top: 7%;
+}
+.page-11-1 .img_2{
+	height: auto;width: 95%;
+	position: absolute;
+	left: 2.5%;
+	top: 12%;
+}
+.page-11-1 .img_3{
+	height: auto; width:80%;
+	position: absolute;
+	left: 5%;
+	top: 24%;
+}
+/************************************第12页****************************************/
+.page-12-1 .img_1{
+	height: auto;width: 90%;
+	position: absolute;
+	left: 2%;
+	top: 6%;
+}
+.page-12-1 .img_2{
+	height: auto;width: 87%;
+	position: absolute;
+	left: 3%;
+	top: 15%;
+}
+.page-12-1 .img_3{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 27%;
+}
+.page-12-1 .img_4{
+	height: auto;width: 87%;
+	position: absolute;
+	left: 3%;
+	top: 60%;
+}
+/********************************第13页***************************************/
+.page-13-1 .img_1{
+	height: auto;width: 90%;
+	position: absolute;
+	left: 0%;
+	top: 6%
+}
+.page-13-1 .img_2{
+	height: auto;width: 85%;
+	position: absolute;
+	left: 7%;
+	top: 20%
+}
+.page-13-1 .img_3{
+	height: auto;width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 40%
+}
+/**********************************第14页****************************************/
+.page-14-1 .img_1{
+	height: auto; width: 97%;
+	position: absolute;
+	left: 0%;
+	top: 5%;
+}
+.page-14-1 .img_2{
+	height: auto; width: 95%;
+	position: absolute;
+	left: 2%;
+	top: 10%;
+}
+.page-14-1 .img_3{
+	height: auto; width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 50%;
+}
+/***********************************第15页**************************************/
+.page-15-1 .img_1{
+	height: auto;width: 70%;
+	position: absolute;
+	left: 15%;
+	top: 17%;
+}
+.page-15-1 .img_2{
+	height: auto;width: 60%;
+	position: absolute;
+	left: 20%;
+	top: 35%;
+}
